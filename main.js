@@ -24,7 +24,7 @@ const achievements = [
     
 ];
 
-// Populate Skills
+
 const skillsList = document.getElementById('skills-list');
 skills.forEach(skill => {
     const span = document.createElement('span');
