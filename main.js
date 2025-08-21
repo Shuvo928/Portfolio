@@ -33,7 +33,7 @@ skills.forEach(skill => {
     skillsList.appendChild(span);
 });
 
-// Populate Projects
+
 const projectsList = document.getElementById('projects-list');
 projects.forEach(project => {
     const div = document.createElement('div');
@@ -56,7 +56,7 @@ achievements.forEach(ach => {
     achievementsList.appendChild(div);
 });
 
-// Section navigation
+
 function showSection(sectionId, el) {
     document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
     document.getElementById(sectionId).classList.add('active');
