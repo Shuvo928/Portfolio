@@ -1,20 +1,22 @@
 // Data for dynamic sections
 const skills = ["Macine Learning", "Python", "Deep Learning", "Web DEvelopment", "C#", "PHP & MySQL", "JavaScript", "HTML & CSS","java"];
 const projects = [
+    
+    {
+        title: "Breast-Cancer-ultrasound-image-processing",
+        description: "Developed a deep learning model to accurately detect breast cancer from medical data, improving early diagnosis and patient outcomes.",
+        link: "https://github.com/Shuvo928/Breast-Cancer-ultrasound-image-processing" // Replace with your actual project URL
+    }
+    ,
+    {
+        title: "Student result management system",
+        description: "A web-based system to manage student records, input marks, and generate result reports.",
+        link: "https://github.com/Shuvo928/Student_Result_Management-system"
+    },
     {
         title: "Smart-Load-Shedding-Prediction-Project using Machine Learning",
         description: "Created a predictive model to optimize load shedding schedules, minimizing disruptions and improving energy efficiency.",
         link: "https://github.com/Shuvo928/Smart-Load-Shedding-Prediction-Project" // Replace with your actual project URL
-    },
-    {
-        title: "Breast Cancer Detection using Deep Learning",
-        description: "Developed a deep learning model to accurately detect breast cancer from medical data, improving early diagnosis and patient outcomes.",
-        link: "https://github.com/Shuvo928/Breast-Cancer-Detection-Using-Deep-Learning" // Replace with your actual project URL
-    }
-     {
-        title: "Student_Result_Management-system",
-        description: "Software Engineering, Academic Project using php, HTML, CSS, JavaScript,XAMPP. Developed a web-based student result management system to streamline the process of recording, managing, and analyzing student academic performance.",
-        link: "https://github.com/Shuvo928/Student_Result_Management-system/tree/main" // Replace with your actual project URL
     }
 ];
 const achievements = [

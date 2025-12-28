@@ -34,6 +34,10 @@ This is a simple portfolio project containing HTML, CSS, JavaScript, and image f
 - Use modern browsers (Chrome, Edge, Firefox) for best compatibility.
 - If you make changes, refresh your browser to see updates.
 
+## Projects
+
+- Student result management system: https://github.com/Shuvo928/Student_Result_Management-system
+
 ## Requirements
 
 - No special software is required. Only a web browser is needed.
