@@ -28,7 +28,14 @@ const achievements = [
         title: "Machine Learning with Python",
         img: "WhatsApp Image 2025-08-17 at 00.15.50_78c7f517.jpg"
     },
-    
+    {
+        title: "Web design and development",
+        img: "web design.jpg"
+    },
+    {
+        title: "Graphics Design",
+        img: "graphics.jpeg"
+    }
 ];
 
 
