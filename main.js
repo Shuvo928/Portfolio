@@ -11,6 +11,11 @@ const projects = [
         description: "Developed a deep learning model to accurately detect breast cancer from medical data, improving early diagnosis and patient outcomes.",
         link: "https://github.com/Shuvo928/Breast-Cancer-Detection-Using-Deep-Learning" // Replace with your actual project URL
     }
+     {
+        title: "Student_Result_Management-system",
+        description: "Software Engineering, Academic Project using php, HTML, CSS, JavaScript,XAMPP. Developed a web-based student result management system to streamline the process of recording, managing, and analyzing student academic performance.",
+        link: "https://github.com/Shuvo928/Student_Result_Management-system/tree/main" // Replace with your actual project URL
+    }
 ];
 const achievements = [
     {
