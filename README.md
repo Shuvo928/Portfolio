@@ -41,4 +41,4 @@ This is a simple portfolio project containing HTML, CSS, JavaScript, and image f
 
 ## License
 
-This project is for personal or educational use. Feel free to modify and use it as needed.
+This project is for personal or educational use.
