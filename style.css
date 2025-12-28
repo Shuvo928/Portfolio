@@ -187,3 +187,36 @@ h2 {
     .container { padding: 1rem; }
     header h1 { font-size: 1.5rem; }
 }
+
+/* Image modal styles */
+#img-modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.75);
+    z-index: 1200;
+    padding: 2rem;
+}
+#img-modal.open {
+    display: flex;
+}
+#img-modal .modal-content img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.6);
+}
+.modal-close {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+}
+.cert-img { cursor: zoom-in; }

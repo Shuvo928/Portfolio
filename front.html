@@ -17,12 +17,12 @@
             <img src="mine.jpg" alt="D:\GitHub\GIT HUB SIGN IN\Portfolioe" class="profile-photo">
         </div>
         <nav>
-            <a href="#about" class="active" onclick="event.preventDefault(); showSection('about', this)">About</a>
-            <a href="#education" onclick="event.preventDefault(); showSection('education', this)">Education</a>
-            <a href="#skills" onclick="event.preventDefault(); showSection('skills', this)">Skills</a>
-            <a href="#projects" onclick="event.preventDefault(); showSection('projects', this)">Projects</a>
-            <a href="#achievements" onclick="event.preventDefault(); showSection('achievements', this)">Achievements</a>
-            <a href="#contact" onclick="event.preventDefault(); showSection('contact', this)">Contact</a>
+            <a href="#about" class="active">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     <div class="container">
@@ -74,6 +74,11 @@
             </div>
             <div style="margin-top:1.5rem;color:#888;font-size:0.95em;">© 2025 Shuvo Chakrobortty. All Rights Reserved.</div>
         </section>
+    </div>
+    <!-- Image modal for achievement images -->
+    <div id="img-modal" class="img-modal" role="dialog" aria-hidden="true">
+        <button class="modal-close" aria-label="Close">&times;</button>
+        <div class="modal-content"><img src="" alt=""></div>
     </div>
     <script src="main.js"></script>
 </body>

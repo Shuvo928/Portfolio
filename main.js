@@ -70,3 +70,35 @@ function showSection(sectionId, el) {
     document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
     if (el) el.classList.add('active');
 }
+
+// Image modal for achievement certificates
+const modal = document.getElementById('img-modal');
+const modalImg = modal ? modal.querySelector('.modal-content img') : null;
+const modalClose = modal ? modal.querySelector('.modal-close') : null;
+if (modal && modalImg) {
+    document.querySelectorAll('.cert-img').forEach(img => {
+        img.style.cursor = 'zoom-in';
+        img.addEventListener('click', () => {
+            modalImg.src = img.src;
+            modalImg.alt = img.alt || '';
+            modal.setAttribute('aria-hidden', 'false');
+            modal.classList.add('open');
+        });
+    });
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal || e.target === modalClose) {
+            modal.classList.remove('open');
+            modal.setAttribute('aria-hidden', 'true');
+            modalImg.src = '';
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            modal.classList.remove('open');
+            modal.setAttribute('aria-hidden', 'true');
+            modalImg.src = '';
+        }
+    });
+}
