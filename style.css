@@ -14,7 +14,40 @@
     text-align: center;
     margin: 1rem 0;
 }
+.float-download {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #4f8cff;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+    z-index: 1000;
+}
 
+.float-download:hover {
+    background: #3730a3;
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 600px) {
+    .float-download {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+}
 .download-btn {
     display: inline-block;
     background: #4f8cff;
