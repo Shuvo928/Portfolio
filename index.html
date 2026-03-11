@@ -6,10 +6,7 @@
     <title> Shuvo Chakrobortty - Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400|Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- Add this after the nav or inside header-info -->
-<div class="download-resume">
-    <a href="path/to/your-resume.pdf" download class="download-btn">📄 Download Resume</a>
-</div>
+    
 </head>
 <body>
     <header>
@@ -28,6 +25,11 @@
             <a href="#achievements">Achievements</a>
             <a href="#contact">Contact</a>
         </nav>
+        <!-- Add this after the nav or inside header-info -->
+<div class="download-resume">
+    <a href="path/to/your-resume.pdf" download class="download-btn">📄 Download Resume</a>
+</div>
+        
     </header>
     <div class="container">
         <section id="about" class="section active">
@@ -85,5 +87,9 @@
         <div class="modal-content"><img src="" alt=""></div>
     </div>
     <script src="main.js"></script>
+    <!-- Floating download button -->
+<a href="path/to/your-resume.pdf" download class="float-download" title="Download Resume">
+    <span>📄</span>
+</a>
 </body>
 </html>
